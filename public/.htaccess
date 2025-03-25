@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    # Disable MultiViews, which can cause problems with routing
+    <IfModule mod_negotiation.c>
+        Options -MultiViews
+    </IfModule>
+
+    # Enable RewriteEngine
+    RewriteEngine On
+
+    # Redirect trailing slashes to the URL without them
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle requests that do not map to actual files or directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Send all other requests to index.php
+    RewriteRule ^ index.php [L]
+</IfModule>

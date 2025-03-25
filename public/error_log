@@ -1,0 +1,9 @@
+[05-Mar-2025 07:26:11 America/Chicago] PHP Warning:  require(/home3/arabmons/amisdab.com/public/../bootstrap/autoload.php): Failed to open stream: No such file or directory in /home3/arabmons/amisdab.com/public/index.php on line 22
+[05-Mar-2025 07:26:11 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/arabmons/amisdab.com/public/../bootstrap/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home3/arabmons/amisdab.com/public/index.php:22
+Stack trace:
+#0 {main}
+  thrown in /home3/arabmons/amisdab.com/public/index.php on line 22
+[05-Mar-2025 07:26:33 America/Chicago] PHP Warning:  require(/home3/arabmons/amisdab.com/public/../bootstrap/autoload.php): failed to open stream: No such file or directory in /home3/arabmons/amisdab.com/public/index.php on line 22
+[05-Mar-2025 07:26:33 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home3/arabmons/amisdab.com/public/../bootstrap/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home3/arabmons/amisdab.com/public/index.php on line 22
+[05-Mar-2025 07:27:18 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 5.6.40. in /home3/arabmons/amisdab.com/vendor/composer/platform_check.php on line 29
+[05-Mar-2025 07:59:50 America/Chicago] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.2.0". You are running 7.4.33. in /home3/arabmons/amisdab.com/vendor/composer/platform_check.php on line 28

@@ -1,0 +1,16 @@
+  /usr/local/opt/mosquitto/sbin/mosquitto -c /usr/local/etc/mosquitto/mosquitto.conf
+
+
+
+
+Area for improvement:
+1- us in momory database to improvement performance
+2- min android version is 21
+
+
+
+database commands:
+//reset logs table
+delete from sensor_logs where id < 100000;
+ALTER SEQUENCE sensor_logs_id_seq RESTART WITH 1;
+delete from sensor_logs where id > 500;
